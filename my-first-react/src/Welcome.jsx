@@ -1,12 +1,11 @@
-function Welcome(props){
+function Welcome(){
     return(
         <div>
             <h2> Welcome Component</h2>
-            <h6>Hello, {props.name}</h6>
             <p>This is a separate react component.</p>
 
 
-            <p>Testing the git commit restore process..</p>
+            <p>This is the line added to check or learn the branching in git</p>
         </div>
     );
 }
