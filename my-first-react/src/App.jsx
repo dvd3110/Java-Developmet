@@ -4,7 +4,8 @@ function App() {
   return (
     <div>
       <h1>Hello Darshan 👋</h1>
-      <Welcome />
+      <Welcome name = "Darshan" />
+      <Welcome name = "Vishwa" />
     </div>
   );
 }
