@@ -1,12 +1,14 @@
 import Welcome from './Welcome'
+import Chai from './Chai'
 
 function App() {
+  const username ='dvdkkr'
   return (
-    <div>
-      <h1>Hello Darshan 👋</h1>
-      <Welcome name = "Darshan" />
-      <Welcome name = "Vishwa" />
-    </div>
+    <>
+      <Chai />
+      <h1>This is App dev with username : {username}</h1>
+    </>
+
   );
 }
 
